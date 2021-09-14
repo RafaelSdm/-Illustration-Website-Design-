@@ -24,11 +24,34 @@
 }
 
 
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: white;
+    background: var(--black);
+    border-radius: .5rem;
+}
+
+.btn:hover{
+    background-color: var(--blue);
+}
+
+
 html{
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-padding-top: 7rem;
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
+
+
+}
+
+section{
+    padding: 2rem 9%;
 }
 
 html::-webkit-scrollbar{
@@ -91,6 +114,40 @@ html::-webkit-scrollbar-thumb{
 
 
 
+.home{
+    padding-top: 9rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+.home .image{
+    flex: 1 1 42rem;
+}
+
+.home .image img{
+    width: 100%;
+}
+
+.home .content{
+    flex:  1 1 42rem;
+}
+
+
+.home .content h3{
+    color: var(--black);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+
+.home .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: .5rem 0;
+}
 
 
 
@@ -139,7 +196,17 @@ html::-webkit-scrollbar-thumb{
     .header{
         padding: 2rem;
     }
+
+    section{
+        padding: 2rem;
+    }
 }
+
+
+
+
+
+
 
 
 
