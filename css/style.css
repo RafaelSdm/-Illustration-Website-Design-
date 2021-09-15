@@ -227,6 +227,63 @@ html::-webkit-scrollbar-thumb{
 
 
 
+.about .row{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.about .row .image{
+    flex: 1 1 42rem;
+}
+
+
+.about .row .image img{
+    width: 100%;
+}
+
+
+.about .row .content{
+    flex: 1 1 42rem;
+}
+
+
+.about .row .content h3{
+    color: var(--black);
+    font-size: 3.5rem;
+    list-style: 1.8;
+
+}
+
+
+.about .row .content p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 1.8;
+
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
