@@ -432,6 +432,36 @@ html::-webkit-scrollbar-thumb{
 
 
 
+.footer{
+    text-align: center;
+
+}
+
+.footer .share{
+    padding: 1rem 0;
+}
+
+.footer .share a{
+    color: var(--black);
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.footer .share a:hover{
+    color:  var(--blue);
+}
+
+.footer .credit{
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+
+.footer .credit span{
+    color: var(--blue);
+}
 
 @media (max-width:991px){
     
