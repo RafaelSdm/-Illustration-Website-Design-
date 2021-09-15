@@ -269,9 +269,54 @@ html::-webkit-scrollbar-thumb{
 
 
 
+.plan .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+}
 
 
+.plan .box-container .box{
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2.5rem 2rem;
+}
 
+
+.plan .box-container .box .title{
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.plan .box-container .box img{
+    height: 20rem;
+}
+
+
+.plan .box-container .box .price{
+    font-size: 6rem;
+    color: var(--black);
+    font-weight: bolder;
+}
+
+.plan .box-container .box .price span{
+    font-size: 2.5rem;
+    font-weight: normal;
+
+}
+
+.plan .box-container .box  ul{
+    padding: 1rem 0;
+    list-style: none;
+}
+
+.plan .box-container .box  ul li{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    color: var(--light-color);
+}
 
 
 
